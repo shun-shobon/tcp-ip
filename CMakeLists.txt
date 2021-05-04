@@ -8,4 +8,4 @@ add_executable(test0 test/step0.c util.c)
 add_executable(test1 test/step1.c util.c net.c ip.c driver/null.c)
 add_executable(test2 test/step2.c util.c net.c ip.c driver/loopback.c)
 add_executable(test3 test/step3.c util.c net.c ip.c driver/loopback.c)
-
+add_executable(test4 test/step4.c util.c net.c ip.c driver/loopback.c)
